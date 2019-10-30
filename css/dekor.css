@@ -1,0 +1,109 @@
+﻿.hyperling
+{
+	background: none;
+	border: none;
+	cursor: hand;
+	text-align: left;
+	color:Blue; 
+	font-size:12px; 
+}
+.hyperling:hover
+{
+ text-decoration:underline; 
+}
+.menukiri
+{
+ width:50px;
+}
+.menukanan
+{
+ width:100%;
+ font-family:Verdana;
+ font-size:12px;
+}
+.menukiriatas
+{
+   width:100%;
+}
+.menubawah
+{
+	height:100%;
+	vertical-align:top;
+}
+.menubawahkiri
+{
+  background-image:url(images/leftnav.gif);
+  background-repeat:repeat-y ;   
+ }
+.judulatas
+{
+	background-color:Black; 
+	font-family:Verdana;
+	color:White;
+	font-size:14px; 
+}  
+.judulsub
+{
+	font-family: Verdana;
+	color: black;
+	font-size: 14px;
+    font-weight: bold;  
+}  
+.eror
+{
+	font-family:Verdana;
+	color:red;
+	font-size:14px; 
+}  
+.headertab
+{
+	background-color: #eee8aa;
+}
+.lapkecil
+{
+	font-family:Verdana ;
+	font-size:7px;
+	border:1;
+}   
+.topIn
+{ 
+	vertical-align:top;
+}
+.topIndo
+{ 
+	vertical-align:top;
+	text-align:center;  
+}
+.topIndoFar
+{ 
+	text-align:center;  
+}
+.garisbawah
+{
+  text-decoration:underline; 
+  }  	
+.headerblock
+  {
+ width:100%;
+ border-collapse:collapse; 
+  }
+.uang
+{
+ text-align:right; 
+}
+.tanggal
+{
+	font-family: Verdana;
+	color: black;
+	font-size: 12px;
+    font-weight: bold;  
+}  
+.garis
+{
+	height:5px; 
+}  
+.infok 
+{
+	font-family:Verdana;
+	font-size:12px;
+}   

@@ -1,0 +1,151 @@
+<html>
+<head>
+    <title>TGS PBP JAVASCRIPT & CSS</title>
+    <link rel="stylesheet" type="text/css" href="./css/dekor.css">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/button.css">
+    <script src="jam.js"></script>
+    <script src="selamat.js"></script>
+    <script src="password.js"></script>
+    <script src="validationhurang.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+
+    <form name="form1"  onSubmit="return popUp();">
+        <table width="100%">
+        <tbody><tr><td align="right"><img src="./css/siasat.gif" alt=""></td> 
+        </tr>
+        </tbody></table>
+        <table width="100%" id="TABLE1">
+            <tbody><tr>
+                <td colspan="2" style="font-size: 8pt; color: red; font-family: verdana" align="center">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td align="left" class="tanggal" id="jam">
+                   </td>
+                <td align="right">|&nbsp;&nbsp;<span id="selamat"></span></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right" style="background-color: #c0c0c0">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+        
+   
+    <table style="font-size: 12px; font-family: verdana">
+        <tbody><tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <i class="fa fa-id-card-o" aria-hidden="true"></i>
+             Nim</td>
+            <td>
+                :</td>
+            <td>
+                <input name="nim" type="text"  id="nim" onkeypress="return angka(event)"></td>
+        </tr>
+        <tr>
+            <td>
+            <i class="fa fa-user" aria-hidden="true"></i>
+                Nama</td>
+            <td>
+                :</td>
+            <td>
+            <input name="nama" type="text" id="nama" onblur="checkLength(this)"  onkeyup="selamat()" onkeypress="return huruf(event)">
+            <span id="valid_nama"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <i class="fa fa-key" aria-hidden="true"></i> 
+                Password</td>
+            <td>
+                :</td>
+            <td>
+            <input name="password" type="password" id="xpassword" onkeypress="return angka(event)" onkeyup="checkPass();return false;"></td>
+        </tr>
+            <tr>
+                <td>
+                <i class="fa fa-key" aria-hidden="true"></i> 
+                 Ulangi Password</td>
+                <td>
+                    :</td>
+                <td>
+            <input name="password2" type="password" id="xpassword2" onkeyup="checkPass();return false;" onkeypress="return angka(event)"></td>
+            </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100px">
+            </td>
+            <td colspan="2" style="width: 100px">
+                <table>
+                    <tbody><tr>
+                        <td>
+                            <button type="submit" value="Login" id="simpan" onclick=""><i class="fa fa-sign-in"></i> Login</button>
+                        </td>
+                        <td>
+                            <button type="reset" value="Reset"> <i class="fa fa-undo"></i> Reset </button>
+                        </td>
+                    </tr>
+                </tbody></table>
+               
+                </td>
+        </tr>
+        <tr>
+            <td style="width: 100px">
+            </td>
+            <td colspan="2" style="width: 400px">
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100px">
+            </td>
+            <td colspan="2" style="width: 100px">
+                <span id="errornya" ></span></td>
+        </tr>
+        <tr><td colspan="3"></td></tr>
+    </tbody></table>
+    <table>
+    <tbody><tr>
+    <td>
+    </td>
+</tr>
+     </tbody></table> 
+     
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: #c0c0c0"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="font-size: 11px; font-family: verdana">
+                    <i class="fa fa-github" ></i> venomofcode - Reinhart Joshua(672015116)</td>
+            </tr>
+        </tbody></table>
+         
+        <table border="1">
+        </table>
+        <br>
+        &nbsp;</div>
+    </form>
+
+
+
+</body></html>
